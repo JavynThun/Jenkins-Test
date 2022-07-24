@@ -36,7 +36,7 @@ pipeline {
 			echo 'I run only when sucess'
 		}
 		failure {
-			echo 'I run only when fail test polling'
+			echo 'I run only when fail'
 		}
 	}
 }
