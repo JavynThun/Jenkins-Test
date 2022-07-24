@@ -28,4 +28,15 @@ pipeline {
 			}
 		}
 	}
-	
+	post {
+		always {
+			echo 'I will always run'
+		}
+		success {
+			echo 'I run only when sucess'
+		}
+		failure {
+			echo 'I run only when fail test polling'
+		}
+	}
+}
