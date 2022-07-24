@@ -1,12 +1,12 @@
 //Scripted
-node {
-		echo "Build"
+// node {
+// 		echo "Build"
 	
-		echo "Test"
+// 		echo "Test"
 	
-		echo "Integration Test"
+// 		echo "Integration Test"
 	
-}
+// }
 
 //Declarative
 pipeline {
